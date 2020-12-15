@@ -25,3 +25,12 @@ d'être intégré dans les analyses Sonarqube.
 
 Une partie des fichiers sources ont été inspecté et corrigé selon les 
 retours du plugin maven Site.
+
+## Détails du contenu
+
+* Les web-services renvoient des pages et non pas la bdd complète
+* Quand nécessaire, les fonctions renvoient des Optional pour traiter 
+  proprement le cas des enregistrements inconnus
+* La base de donnée comprend des films, des reéalisateurs et des genres
+* Le code a été vérifié avec le plugin Site et SonarQube.
+* La plupart des fonctions haut-niveau ont de la javadoc
